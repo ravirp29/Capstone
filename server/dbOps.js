@@ -11,7 +11,7 @@ const connectDbAndRunQueries = async (apiName, req, res) => {
 
     chooseApiAndSendResponse(apiName, collection, req, res, client)
   } catch (err) {
-    console.log('FAILED TO CONNECT DB ...', err)
+    console.log('FAILED TO CONNECT DB  ...', err)
   }
 }
 
